@@ -1,0 +1,5 @@
+print('Weight Conversion Calulcator:')
+weight = input("What is your weight? ")
+unit = input("kg or lb? ")
+if unit == "kg": print(str(float(weight) * 2.2) + " lb")
+else: print(str(float(weight) / 2.2) + " kg")
